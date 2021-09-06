@@ -15,5 +15,4 @@ public class DriverHooks {
     public void quitDriver() {
         DriverManager.quitDriver();
     }
-
 }
