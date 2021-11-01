@@ -5,10 +5,8 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(
-        plugin = {"pretty", "html:target/cucumber-reports.html"},
+@CucumberOptions(plugin = {"pretty", "com.epam.reportportal.cucumber.ScenarioReporter"},
         monochrome = true,
-        tags = "@test",
         glue = "cucumberTest",
         features = "classpath:features"
 )

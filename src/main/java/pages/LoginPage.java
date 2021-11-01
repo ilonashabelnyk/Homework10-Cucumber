@@ -3,7 +3,7 @@ package pages;
 import driver.DriverManager;
 
 public class LoginPage extends BasePage {
-    private static final String expectedRedirectURLSignInJoin = "https://www.bookdepository.com/account/login/to/account";
+    private static final String expectedRedirectURLSignInJoin = "https://www.bookdepository.com/account/login/to/accoun";
 
     public static String getExpectedRedirectURLSignInJoin() {
         return expectedRedirectURLSignInJoin;
